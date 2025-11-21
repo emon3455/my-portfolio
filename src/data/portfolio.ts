@@ -125,24 +125,52 @@ export const featuredProjects = [
 
 export const skillSections = [
   {
-    label: "Core Stack",
+    label: "Mobile Application",
+    icon: "📱",
+    gradient: "from-cyan-500 to-blue-600",
+    skills: ["React Native", "Expo", "iOS/Android", "Firebase", "Push Notifications", "App Store Ops"],
+  },
+  {
+    label: "Web Development",
+    icon: "🌐",
+    gradient: "from-purple-500 to-pink-600",
+    skills: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js", "NestJS"],
+  },
+  {
+    label: "AI & Automation",
+    icon: "🤖",
+    gradient: "from-violet-500 to-purple-600",
+    skills: ["Python", "FastAPI", "TensorFlow", "PyTorch", "Azure AI", "LLM Integration"],
+  },
+  {
+    label: "CRM & Business Tools",
+    icon: "💼",
+    gradient: "from-emerald-500 to-teal-600",
+    skills: ["Sales Pipeline", "Service Desk", "Lead Scoring", "GraphQL", "Prisma", "Analytics"],
+  },
+  {
+    label: "Software Engineering",
     icon: "⚡",
-    skills: ["TypeScript", "Next.js", "React Native", "Node/Nest", "Go", ".NET"],
+    gradient: "from-orange-500 to-red-600",
+    skills: ["System Design", "Microservices", "PostgreSQL", "MongoDB", "Redis", "AWS/Azure"],
   },
   {
-    label: "Platforms",
-    icon: "🏥",
-    skills: ["Healthcare", "HR/Payroll", "CRM", "AI copilots", "Fintech"],
-  },
-  {
-    label: "Data & ML",
+    label: "AI/ML Research",
     icon: "🧠",
-    skills: ["PostgreSQL", "MongoDB", "Redis", "TensorFlow", "PyTorch", "CNN + fuzzification"],
+    gradient: "from-fuchsia-500 to-pink-600",
+    skills: ["CNN", "Deep Learning", "Emotion Modeling", "Fuzzification", "Model Training", "Experiment Tracking"],
   },
   {
-    label: "Collaboration",
-    icon: "🤝",
-    skills: ["Tech leadership", "Mentorship", "Architecture workshops", "Research writing"],
+    label: "Leadership & Mentorship",
+    icon: "🎯",
+    gradient: "from-amber-500 to-orange-600",
+    skills: ["Tech Leadership", "Team Management (20+)", "Mentoring (100+)", "Architecture Workshops", "Client Requirements", "Research Writing"],
+  },
+  {
+    label: "Healthcare & Fintech",
+    icon: "🏥",
+    gradient: "from-green-500 to-emerald-600",
+    skills: ["Telehealth", "HIPAA Compliance", "Payroll Systems", "HR/Attendance", "Payment Integration", "Security Guardrails"],
   },
 ];
 
