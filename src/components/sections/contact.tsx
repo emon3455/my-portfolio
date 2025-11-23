@@ -14,47 +14,38 @@ export function ContactSection() {
         description="Tell me about the story you want to tell, the metrics you need to move, or the feelings you want to evoke."
         align="center"
       />
-      <div className="relative py-12">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="h-64 w-64 rounded-full bg-cyan-500/20 blur-[120px]" />
-        </div>
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.4 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          className="relative mx-auto max-w-2xl"
+      <motion.div
+        initial={{ opacity: 0, scale: 0.98 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, amount: 0.4 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="rounded-3xl border border-white/5 bg-gradient-to-br from-[#09202a] via-[#070b12] to-[#05060a] p-8 text-center"
+      >
+        <p className="text-lg text-slate-200">
+          Ready when you are. Drop a note and I&apos;ll reply within 2 business days.
+        </p>
+        <Link
+          href={`mailto:${profile.email}`}
+          className="mt-8 inline-flex items-center justify-center rounded-full bg-cyan-400/90 px-8 py-3 text-base font-semibold text-slate-900 transition hover:bg-cyan-300"
         >
-          <div className="rounded-[36px] border border-white/20 bg-gradient-to-b from-white/10 via-white/5 to-transparent p-[2px] shadow-2xl backdrop-blur-xl">
-            <div className="rounded-[34px] bg-gradient-to-b from-slate-900/80 to-slate-950/90 p-10 text-center">
-              <p className="text-xl text-slate-200">
-                Ready when you are. Drop a note and I&apos;ll reply within 2 business days.
+          {profile.email}
+        </Link>
+        <div className="mt-8 grid gap-4 text-left sm:grid-cols-3">
+          {contactLinks.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              target={link.href.startsWith("http") ? "_blank" : undefined}
+              className="rounded-2xl border border-white/5 bg-white/5 p-4 text-sm text-slate-200 transition hover:border-cyan-300/50"
+            >
+              <p className="text-xs uppercase tracking-[0.4em] text-slate-400">
+                {link.label}
               </p>
-              <Link
-                href={`mailto:${profile.email}`}
-                className="mt-8 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 px-10 py-4 text-lg font-bold text-white shadow-lg shadow-cyan-500/30 transition hover:shadow-cyan-500/50"
-              >
-                {profile.email}
-              </Link>
-              <div className="mt-10 space-y-3">
-                {contactLinks.map((link) => (
-                  <Link
-                    key={link.label}
-                    href={link.href}
-                    target={link.href.startsWith("http") ? "_blank" : undefined}
-                    className="group flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 p-4 text-left transition hover:border-cyan-400/50 hover:bg-cyan-950/20"
-                  >
-                    <span className="text-sm font-semibold uppercase tracking-wider text-slate-400 group-hover:text-cyan-300">
-                      {link.label}
-                    </span>
-                    <span className="text-base font-semibold text-white">{link.value}</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </motion.div>
-      </div>
+              <p className="mt-2 font-semibold text-white">{link.value}</p>
+            </Link>
+          ))}
+        </div>
+      </motion.div>
     </section>
   );
 }

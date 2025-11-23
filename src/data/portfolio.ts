@@ -4,7 +4,7 @@ export const profile = {
   tagline:
     "I lead a 20+ person squad, mentor 100+ industry newcomers, and turn vague requirements into healthcare, HR, CRM, and AI products that people actually use.",
   location: "Dhaka, Bangladesh · Remote friendly",
-  email: "hello@emon.dev",
+  email: "emon.mhk69@gmail.com",
   availability: "Open for strategic collaborations",
 };
 
@@ -18,7 +18,7 @@ export const heroHighlights = [
   { label: "Mobile apps", value: "5+" },
   { label: "Web portals", value: "10+" },
   { label: "CRM stacks", value: "3" },
-  { label: "AI copilots", value: "2+" },
+  { label: "AI Platforms", value: "2+" },
 ];
 
 export const journeyMilestones = [
@@ -52,7 +52,12 @@ export const featuredProjects = [
   {
     title: "OptimalMD Portal",
     description: "Clinician hub for care teams and compliance.",
-    image: "/projects/optimalmd.svg",
+    images: [
+      "/projects/optimalmd-admin.png",
+      "/projects/optimalmd-member.png",
+      "/projects/optimalmd-ai-chat.png",
+      "/projects/optimalmd-ai.png",
+    ],
     stack: ["Next.js", "Node", "PostgreSQL", "Azure"],
     highlight: "35% faster onboarding + 24/7 secure telemetry.",
     link: "http://portal.optimalmd.com/",
@@ -60,7 +65,10 @@ export const featuredProjects = [
   {
     title: "Octopi HRMS",
     description: "Payroll, attendance & analytics.",
-    image: "/projects/octopi-hrms.svg",
+    images: [
+      "/projects/octopi-admin.png",
+      "/projects/octopi-digital.png",
+    ],
     stack: ["React", "NestJS", "MongoDB", "Redis"],
     highlight: "Powers thousands of employees with custom reports.",
     link: "https://portal.octopi-digital.com",
@@ -68,58 +76,37 @@ export const featuredProjects = [
   {
     title: "Monkeymans HR Portal",
     description: "White-labeled HRMS for partner org.",
-    image: "/projects/monkeymans.svg",
+    images: ["/projects/monkeyman.png"],
     stack: ["Next.js", "NestJS", "PostgreSQL"],
     highlight: "Custom branding & workflows.",
     link: "https://portal.monkeymans.com/",
   },
   {
-    title: "ONE CRM",
-    description: "Sales pipeline + service desk.",
-    image: "/projects/one-crm.svg",
+    title: "Miami Property",
+    description: "Real estate platform.",
+    images: ["/projects/miami-property.png"],
     stack: ["Next.js", "GraphQL", "Prisma", "AWS"],
-    highlight: "Automated lead scoring + intelligence layer.",
-    link: "http://crm.octopi-digital.com/",
+    highlight: "Property listings with advanced search.",
+    link: "#",
   },
   {
-    title: "OptimalMD Mobile",
-    description: "Telehealth on Android & iOS.",
-    image: "/projects/optimalmd-mobile.svg",
-    stack: ["React Native", "Expo", "Firebase", "Stripe"],
-    highlight: "Care teams manage docs anywhere.",
-    link: "https://play.google.com/store/apps/details?id=com.optimalmdapp.app&pcampaignid=web_share",
+    title: "Estrella",
+    description: "E-commerce platform.",
+    images: [
+      "/projects/estrella.png",
+      "/projects/estella.png",
+    ],
+    stack: ["React", "Node.js", "MongoDB", "Stripe"],
+    highlight: "Multi-vendor marketplace.",
+    link: "#",
   },
   {
-    title: "Document Compliance Network",
-    description: "Audit workflows on mobile.",
-    image: "/projects/dcn.svg",
-    stack: ["React Native", "Expo", "AWS"],
-    highlight: "Fast inspections + offline sync.",
-    link: "https://play.google.com/store/apps/details?id=com.documentcompliance.dcn&pcampaignid=web_share",
-  },
-  {
-    title: "ePay (hobby)",
-    description: "Fintech P2P experiment.",
-    image: "/projects/epay.svg",
-    stack: ["Next.js", "NestJS", "PostgreSQL", "Stripe"],
-    highlight: "Live web + Android APK.",
-    link: "https://e-pay-bd.vercel.app/",
-  },
-  {
-    title: "ePay Android APK",
-    description: "Beta build download.",
-    image: "/projects/epay-apk.svg",
-    stack: ["React Native", "Expo", "Firebase"],
-    highlight: "Drive link for early testers.",
-    link: "https://drive.google.com/file/d/1lzVixBm8bjaXqhP9uq7C16XIbzF2gP3Z/view?usp=drive_link",
-  },
-  {
-    title: "AI Observability",
-    description: "LLM copilots for clinician workflows.",
-    image: "/projects/ai-copilot.svg",
+    title: "NDFND AI",
+    description: "AI platform for NDFND organization.",
+    images: ["/projects/ndfnd-ai.png"],
     stack: ["Python", "FastAPI", "TensorFlow", "Azure AI"],
-    highlight: "ai.optimalmd.com + ai.ndfnd.org with guardrails.",
-    link: "https://ai.optimalmd.com",
+    highlight: "Custom AI workflows with guardrails.",
+    link: "https://ai.ndfnd.org",
   },
 ];
 
@@ -217,7 +204,7 @@ export const contactLinks = [
 
 export const navLinks = [
   { label: "Hero", href: "#hero" },
-  { label: "Journey", href: "#journey" },
+  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Services", href: "#services" },
