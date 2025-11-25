@@ -139,7 +139,7 @@ export const skillSections = [
     label: "Software Engineering",
     icon: "⚡",
     gradient: "from-orange-500 to-red-600",
-    skills: ["System Design", "Microservices", "PostgreSQL", "MongoDB", "Redis", "AWS/Azure"],
+    skills: ["System Design", "Microservices", "PostgreSQL", "MongoDB", "Redis", "Azure"],
   },
   {
     label: "AI/ML Research",
@@ -161,24 +161,51 @@ export const skillSections = [
   },
 ];
 
+// Personal Technical Skills
+export const technicalSkills = {
+  expertise: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "React.js", "Next.js", "Redux", "Redux Toolkit", "RTK Query"],
+  familiar: ["Express.js", "MongoDB", "Mongoose", "JWT", "OAuth", "TypeScript", "React Native", "MySQL", "FastAPI"],
+  tools: ["VS Code", "GitHub", "GitLab", "Chrome DevTool", "Netlify", "Figma"],
+  devops: ["VPS Hostinger", "Personal Server", "Windows Server", "Linux Server", "Email Server", "Vercel", "Render", "Railway", "Azure", "CI/CD"],
+  languages: ["JavaScript", "Python", "C", "C++", "Java"],
+};
+
 export const services = [
   {
-    title: "Platform leadership",
-    icon: "🚀",
-    description: "Lead or bootstrap squads to ship portals, CRM, or HR stacks with enterprise-grade guardrails.",
-    pillars: ["Systems design", "Requirement workshops", "Team enablement"],
+    title: "Web Application Development",
+    icon: "🌐",
+    description: "Build modern, scalable web applications using React, Next.js, and Node.js with responsive design and optimal performance.",
+    pillars: ["React/Next.js", "Full-stack solutions", "Responsive UI/UX"],
   },
   {
-    title: "AI & data activation",
-    icon: "🤖",
-    description: "Embed ML workflows into existing products: model ops, inference endpoints, dashboards.",
-    pillars: ["ML pipelines", "Model integration", "Experiment tracking"],
-  },
-  {
-    title: "Mobile & fintech builds",
+    title: "Mobile Application Development",
     icon: "📱",
-    description: "Design and launch cross-platform apps like OptimalMD, DCN, or ePay.",
-    pillars: ["React Native", "Payments", "App Store ops"],
+    description: "Create cross-platform mobile apps with React Native for iOS and Android, featuring native performance and seamless user experience.",
+    pillars: ["React Native", "iOS/Android", "App Store deployment"],
+  },
+  {
+    title: "CRM System Building",
+    icon: "💼",
+    description: "Design and develop custom CRM solutions tailored to your business needs with sales pipeline, analytics, and automation features.",
+    pillars: ["Custom workflows", "Sales automation", "Data analytics"],
+  },
+  {
+    title: "Chatbot Development",
+    icon: "💬",
+    description: "Build intelligent chatbots powered by AI for customer support, lead generation, and automated conversations.",
+    pillars: ["NLP integration", "Multi-channel support", "Context-aware responses"],
+  },
+  {
+    title: "Model Fine-tuning",
+    icon: "🧠",
+    description: "Fine-tune pre-trained AI models for your specific use cases, improving accuracy and performance on domain-specific tasks.",
+    pillars: ["Transfer learning", "Domain adaptation", "Performance optimization"],
+  },
+  {
+    title: "AI/ML Problem Solving",
+    icon: "🤖",
+    description: "Apply machine learning and AI techniques to solve real-world problems, from predictive analytics to automated decision-making.",
+    pillars: ["Data analysis", "Model deployment", "Production-ready solutions"],
   },
 ];
 
@@ -204,10 +231,10 @@ export const contactLinks = [
 
 export const navLinks = [
   { label: "Hero", href: "#hero" },
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Strength", href: "#strength" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
-  { label: "Skills", href: "#skills" },
   { label: "Services", href: "#services" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
 ];

@@ -17,7 +17,7 @@ const cardHeights = [
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="space-y-10 scroll-mt-32">
+    <section id="strength" className="space-y-10 scroll-mt-32">
       <SectionHeading
         eyebrow="Expertise"
         title="Eight domains, one mindset"

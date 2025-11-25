@@ -15,7 +15,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky inset-x-0 top-4 z-50 mx-auto max-w-6xl px-4 sm:px-8">
+    <header className="sticky inset-x-0 top-0 z-50 mx-auto max-w-7xl px-4 sm:px-8">
       <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-[#05060b]/80 px-4 py-3 text-sm text-slate-100 shadow-[0_0_40px_rgba(92,225,230,0.08)] backdrop-blur-xl">
         <div className="flex items-center gap-2 font-semibold tracking-wide text-white">
           <span className="text-cyan-300">◎</span>

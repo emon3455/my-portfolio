@@ -13,12 +13,13 @@ const jetBrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Emon - Remote Software Engineer | Lead Developer | Full Stack Expert",
+  title: "Emon - Software Engineer | Lead Developer | Full Stack Expert",
   description:
     "Experienced remote software engineer and lead developer specializing in healthcare, CRM, and AI solutions. 20+ projects delivered, 100+ engineers mentored. Expert in React, Next.js, Node.js, React Native, and cloud architecture. Available for remote collaborations worldwide.",
   keywords: [
     "remote software engineer",
     "remote developer",
+    "software engineer",
     "lead software engineer",
     "full stack developer",
     "React developer",
@@ -65,7 +66,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Emon - Remote Software Engineer | Lead Developer | Full Stack Expert",
+    title: "Emon - Software Engineer | Lead Developer | Full Stack Expert",
     description:
       "Lead software engineer with 20+ projects delivered across healthcare, CRM, and AI platforms. Expert in React, Next.js, Node.js, and cloud architecture. Open for remote collaborations worldwide.",
     url: "https://emon.dev",
