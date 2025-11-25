@@ -3,4 +3,6 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://emon.dev/sitemap.xml
+Disallow:
+
+Sitemap: https://iamemon.vercel.app/sitemap.xml

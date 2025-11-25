@@ -90,9 +90,9 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://emon.dev",
+    canonical: "https://iamemon.vercel.app",
   },
-  metadataBase: new URL("https://emon.dev"),
+  metadataBase: new URL("https://iamemon.vercel.app"),
 };
 
 export default function RootLayout({
