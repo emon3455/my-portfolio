@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Emon",
+  "jobTitle": "Lead Software Engineer",
+  "description": "Lead software engineer specializing in healthcare, CRM, and AI solutions. Expert in full-stack development with React, Next.js, Node.js, React Native, and cloud architecture. Open for remote collaborations worldwide.",
+  "url": "https://emon.dev",
+  "email": "emon.mhk69@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dhaka",
+    "addressCountry": "Bangladesh"
+  },
+  "knowsAbout": [
+    "Software Engineering",
+    "Full Stack Development",
+    "React",
+    "Next.js",
+    "Node.js",
+    "React Native",
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "AWS",
+    "Azure",
+    "Microservices Architecture",
+    "Healthcare Software",
+    "CRM Development",
+    "AI Integration",
+    "Machine Learning",
+    "TensorFlow",
+    "Team Leadership",
+    "Remote Work",
+    "Agile Development"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Octopi Digital"
+  },
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "name": "Octopi Digital"
+    },
+    {
+      "@type": "Organization",
+      "name": "Wikasta"
+    },
+    {
+      "@type": "Organization",
+      "name": "Logic Nexus"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/emon-engineer",
+    "https://github.com/emon-dev"
+  ],
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lead Software Engineer",
+    "occupationLocation": {
+      "@type": "Country",
+      "name": "Remote / Worldwide"
+    },
+    "skills": [
+      "React Development",
+      "Next.js Development",
+      "Node.js Development",
+      "React Native Development",
+      "Full Stack Development",
+      "Software Architecture",
+      "Team Leadership",
+      "Microservices Design",
+      "Cloud Computing",
+      "AI Integration"
+    ]
+  },
+  "offers": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Service",
+      "name": "Software Development Services",
+      "description": "Remote software engineering, full-stack development, mobile app development, CRM solutions, healthcare platforms, and AI integration services."
+    }
+  }
+}
