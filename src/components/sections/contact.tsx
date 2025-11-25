@@ -22,7 +22,7 @@ export function ContactSection() {
         className="rounded-3xl border border-white/5 bg-gradient-to-br from-[#09202a] via-[#070b12] to-[#05060a] p-8 text-center"
       >
         <p className="text-lg text-slate-200">
-          Ready when you are. Drop a note and I&apos;ll reply within 2 business days.
+          Ready when you are. Drop a note and I&apos;ll reply within 1 business days.
         </p>
         <Link
           href={`mailto:${profile.email}`}
