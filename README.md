@@ -1,13 +1,22 @@
-## Personal Portfolio — Next.js 14 + Three.js
+# Emon's Personal Portfolio
 
-Dark, cinematic portfolio built with the Next.js App Router, Tailwind CSS v4, Framer Motion, and Three.js. It ships sections for hero, journey timeline, projects, skills, services, about, and contact — all fed by a single data file so updating content stays painless.
+> My personal portfolio showcasing my work as a Lead Software Engineer specializing in web, mobile application development and AI solutions.
 
-### Highlights
-- Three.js journey canvas rendered with React Three Fiber and glowing milestones
-- Framer Motion reveal choreography across every section
-- Tailwind CSS v4 custom theme with layered gradients and noise texture
-- Data-driven content via `src/data/portfolio.ts`
-- Responsive layout optimized for desktop-first storytelling with graceful mobile states
+**🌐 Live Site:** [https://iamemon.vercel.app](https://iamemon.vercel.app)
+
+---
+
+## Overview
+
+This is my professional portfolio built with Next.js 15, featuring interactive 3D animations, smooth transitions, and a comprehensive showcase of my projects, skills, and services. The site is designed to highlight my expertise in full-stack development, mobile applications, AI/ML solutions, and DevOps.
+
+### Key Features
+- **3D Journey Timeline** - Interactive Three.js visualization of my professional journey
+- **Bidirectional Project Marquee** - Smooth infinite scroll showcasing project screenshots
+- **Comprehensive Services Section** - Detailed breakdown of my technical capabilities
+- **Technical Skills Display** - Categorized expertise in frontend, backend, DevOps, and more
+- **SEO Optimized** - Fully optimized for search engines with structured data and sitemap
+- **Responsive Design** - Seamless experience across all devices
 
 ### Tech Stack
 - Next.js 16 / React 19 (App Router, Server Components)
@@ -37,4 +46,9 @@ npm run dev
 5. **Add resume or external links** by editing the CTA targets in `src/components/sections/hero.tsx` or elsewhere.
 
 ### Deployment
-Deploy to Vercel with `vercel` CLI or connect the repository in the Vercel dashboard. The project uses static + server rendering, so no extra configuration is required.
+This portfolio is deployed on Vercel and accessible at **[https://iamemon.vercel.app](https://iamemon.vercel.app)**
+
+To deploy your own version:
+- Connect your repository to Vercel dashboard
+- Or use the Vercel CLI: `vercel`
+- The project uses static + server rendering with automatic optimization
