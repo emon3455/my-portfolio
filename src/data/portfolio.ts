@@ -190,13 +190,13 @@ export const contactLinks = [
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/emon-engineer",
-    href: "https://www.linkedin.com/in/emon-engineer",
+    value: "linkedin.com/in/emon3455",
+    href: "https://www.linkedin.com/in/emon3455",
   },
   {
     label: "GitHub",
-    value: "github.com/emon-dev",
-    href: "https://github.com/emon-dev",
+    value: "github.com/emon3455",
+    href: "https://github.com/emon3455",
   },
 ];
 
