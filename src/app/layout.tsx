@@ -130,6 +130,8 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9933453521767126"
+          crossOrigin="anonymous"></script>
       </head>
       <body className={`${grotesk.variable} ${jetBrains.variable} antialiased bg-[#030409]`}>
         {children}
